@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/javascripting verify *.js"
   },
   "author": "au9ustine",
   "license": "ISC",
   "dependencies": {
+    "eslint": "^4.13.0",
     "javascripting": "^2.6.1"
   }
 }
