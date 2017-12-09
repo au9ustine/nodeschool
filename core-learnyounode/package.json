@@ -1,0 +1,15 @@
+{
+  "name": "core-learnyounode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "au9ustine",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.13.0",
+    "learnyounode": "^3.5.10"
+  }
+}
