@@ -9,6 +9,7 @@
   "author": "au9ustine",
   "license": "ISC",
   "dependencies": {
+    "bl": "^1.2.1",
     "eslint": "^4.13.0",
     "learnyounode": "^3.5.10"
   }

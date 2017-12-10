@@ -1,0 +1,10 @@
+const http = require('http');
+const bl = require('bl');
+
+http.get(process.argv[2], (res) => {
+    res.pipe(bl((err, data) => {
+        let data_str = data.toString();
+        console.log(data_str.length);
+        console.log(data_str);
+    }));
+}).on('error', console.error);
