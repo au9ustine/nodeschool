@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concat-stream": "^1.6.0",
     "eslint": "^4.17.0",
     "split": "^1.0.1",
     "stream-adventure": "^4.1.1",
