@@ -9,7 +9,9 @@
   "author": "au9ustine",
   "license": "ISC",
   "dependencies": {
-    "eslint": "^4.13.0",
     "javascripting": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0"
   }
 }
