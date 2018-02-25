@@ -1,0 +1,17 @@
+#!/bin/sh
+
+part=$1
+lesson=$2
+newProj=$part-$lesson
+
+mkdir -pv $newProj
+cp -v core-stream-adventure/.eslintrc.yml $newProj/
+cp -v core-stream-adventure/.gitignore $newProj/
+cp -v core-stream-adventure/.npmrc $newProj/
+cp -v core-stream-adventure/Makefile $newProj/
+cd $newProj
+npm init -y
+npm install $lesson
+npm install --save-dev eslint
+ln -sv ./node_modules/.bin/$lesson ./$lesson
+cd ..
