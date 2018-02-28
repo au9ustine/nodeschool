@@ -1,1 +1,3 @@
-./node_modules/.bin/elementary-electron
+#!/bin/sh
+
+PATH=$PATH:./node_modules/.bin/ ./node_modules/.bin/elementary-electron $@
