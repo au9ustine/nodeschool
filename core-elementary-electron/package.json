@@ -12,7 +12,8 @@
   "dependencies": {
     "cat-picture": "^5.1.2",
     "electron": "^1.8.2",
-    "elementary-electron": "^1.5.2"
+    "elementary-electron": "^1.5.2",
+    "lightning-image-poly": "0.0.10"
   },
   "devDependencies": {
     "eslint": "^4.18.1"

@@ -1,1 +1,1 @@
-./03-cat-picture-index.js
+./04-cat-annotation-index.js

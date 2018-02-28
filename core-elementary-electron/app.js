@@ -1,1 +1,1 @@
-./02-hello-world-app.js
+./04-cat-annotation-app.js
