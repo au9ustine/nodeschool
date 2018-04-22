@@ -14,6 +14,7 @@
     "expressworks": "^3.4.2"
   },
   "devDependencies": {
-    "eslint": "^4.18.2"
+    "eslint": "^4.18.2",
+    "pug": "^2.0.3"
   }
 }
