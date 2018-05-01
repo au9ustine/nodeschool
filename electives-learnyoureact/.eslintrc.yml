@@ -16,3 +16,11 @@ rules:
   semi:
     - error
     - always
+
+parserOptions:
+  ecmaVersion: 6
+  sourceType: "module"
+  ecmaFeatures:
+    jsx: true
+plugins:
+  - react
