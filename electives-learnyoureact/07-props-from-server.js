@@ -12,8 +12,20 @@ require('babel/register')({
     ignore: false
 });
 
+let data = [{
+    title: 'Shopping',
+    detail: process.argv[3]
+},
+{
+    title: 'Hair cut',
+    detail: process.argv[4]
+}
+];
+
 app.use('/', function (req, res) {
-    res.render('06-css', '');
+    res.render('07-props-from-server', {
+        'data': data
+    });
 });
 
 app.listen(app.get('port'), function () {
