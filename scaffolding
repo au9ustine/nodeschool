@@ -11,7 +11,7 @@ cp -v core-stream-adventure/.npmrc $newProj/
 cp -v core-stream-adventure/Makefile $newProj/
 cd $newProj
 npm init -y
-npm install $lesson
+npm install --save-dev $lesson
 npm install --save-dev eslint
 ln -sv ./node_modules/.bin/$lesson ./$lesson
 cd ..
