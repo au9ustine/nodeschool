@@ -1,0 +1,16 @@
+{
+  "name": "electives-bytewiser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bytewiser": "^2.1.0",
+    "eslint": "^4.19.1"
+  }
+}
