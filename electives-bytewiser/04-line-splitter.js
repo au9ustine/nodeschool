@@ -10,3 +10,5 @@ for (var i = 0; i < file.length; i++) {
     }
 }
 console.log(file.slice(offset, i));
+
+// IMHO: This piece of code is a piece of shit, I don't think Buffer is not the best way solving this problem.
